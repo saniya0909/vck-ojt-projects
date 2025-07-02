@@ -1,6 +1,6 @@
-import React from "react";
 import Header from "../components/Header/Header"
-import './coursesPage.css';
+
+import './CoursesPage.css';
 import "../components/Header/Header.css";
 import "../components/Footer/Footer.css";
 import Footer from "../components/Footer/Footer";

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import AboutPage from "./pages/AboutPage";
+// import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import CoursesPage from "./pages/CoursesPage";
 import AdmissionsPage from "./pages/AdmissionPage"
@@ -29,7 +29,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/home" element={<HomePage />} />
-          <Route path="/aboutpage" element={<AboutPage />} />
+          {/* <Route path="/aboutpage" element={<AboutPage />} /> */}
           <Route path="/coursespage" element={<CoursesPage />} />
           <Route path="/contactpage" element={<ContactPage />} />
           <Route path="/admissionspage" element={<AdmissionsPage />} />
