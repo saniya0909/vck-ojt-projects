@@ -6,7 +6,7 @@ import CoursesPage from "./pages/CoursesPage";
 import AdmissionsPage from "./pages/AdmissionPage"
 import HomePage from "./pages/HomePage";
 import ChatbotComponent from "./components/Chatbot/ChatbotComponents";
-import DeveloperInfoPopup from "./components/Developerinfo/DeveloperInfopopup";
+import DeveloperInfoPopup from "./components/Developerinfo/DeveloperInfoPopup";
 const App = () => {
   const [showPopup, setShowPopup] = useState(true);
   const handleClosePopup = () => {

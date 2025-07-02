@@ -14,6 +14,6 @@ function DeveloperInfoPopup({ show, onClose, studentName, studentPhotoUrl, uniqu
                 <button className="ok-button" onClick={onClose}>Got It!</button> {/* Another close option */}
             </div>
         </div>
-    );
+     );
 }
 export default DeveloperInfoPopup;
