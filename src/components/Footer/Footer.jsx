@@ -1,9 +1,10 @@
+import React from "react";
+import './Footer.css';
 const Footer = () => {
-    return(
-        <div>
-
-        </div>
+    return (
+        <footer>
+            <p>&copy; 2025 Vivekanand College. All rights reserved.</p>
+        </footer>
     )
 }
-
-export default Footer;
+export default Footer;
